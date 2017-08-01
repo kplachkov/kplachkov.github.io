@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Calculatorjs</title>
+      <link>https://kostadinplachkov.github.io/tags/calculatorjs/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kostadinplachkov.github.io/tags/calculatorjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deep Learning</title>
       <link>https://kostadinplachkov.github.io/tags/deep-learning/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
@@ -35,6 +44,15 @@
       <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
       
       <guid>https://kostadinplachkov.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java Overview</title>
+      <link>https://kostadinplachkov.github.io/tags/java-overview/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kostadinplachkov.github.io/tags/java-overview/</guid>
       <description></description>
     </item>
     
@@ -62,6 +80,33 @@
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://kostadinplachkov.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oop</title>
+      <link>https://kostadinplachkov.github.io/tags/oop/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kostadinplachkov.github.io/tags/oop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python Overview</title>
+      <link>https://kostadinplachkov.github.io/tags/python-overview/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kostadinplachkov.github.io/tags/python-overview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sql Overview</title>
+      <link>https://kostadinplachkov.github.io/tags/sql-overview/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kostadinplachkov.github.io/tags/sql-overview/</guid>
       <description></description>
     </item>
     

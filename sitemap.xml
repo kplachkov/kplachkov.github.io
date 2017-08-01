@@ -5,7 +5,25 @@
     
     <url>
     
+      <loc>https://kostadinplachkov.github.io/project/calculatorjs/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://kostadinplachkov.github.io/project/deep-learning/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://kostadinplachkov.github.io/project/java-overview/</loc>
       <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +41,34 @@
     
     <url>
     
+      <loc>https://kostadinplachkov.github.io/project/sql-overview/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://kostadinplachkov.github.io/project/machine-learning/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://kostadinplachkov.github.io/project/oop/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://kostadinplachkov.github.io/project/python-overview/</loc>
       <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -140,18 +185,8 @@
     
     <url>
     
-      <loc>https://kostadinplachkov.github.io/publication_types/1/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://kostadinplachkov.github.io/publication_types/2/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <loc>https://kostadinplachkov.github.io/tags/calculatorjs/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -181,6 +216,16 @@
     
       <loc>https://kostadinplachkov.github.io/tags/hugo/</loc>
       <lastmod>2016-04-20T12:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://kostadinplachkov.github.io/tags/java-overview/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -229,6 +274,16 @@
     
     <url>
     
+      <loc>https://kostadinplachkov.github.io/tags/oop/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://kostadinplachkov.github.io/project/</loc>
       <lastmod>2017-08-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -239,8 +294,18 @@
     
     <url>
     
-      <loc>https://kostadinplachkov.github.io/publication_types/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <loc>https://kostadinplachkov.github.io/tags/python-overview/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://kostadinplachkov.github.io/tags/sql-overview/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>https://kostadinplachkov.github.io/project/kpblog/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://kostadinplachkov.github.io/project/machine-learning/</loc>
       <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     </url>
@@ -192,6 +201,16 @@
     
       <loc>https://kostadinplachkov.github.io/</loc>
       <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://kostadinplachkov.github.io/tags/kpblog/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

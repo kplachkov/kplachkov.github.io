@@ -11,11 +11,11 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Calculator JS</title>
-      <link>https://kostadinplachkov.github.io/project/calculatorjs/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <title>About Me KP</title>
+      <link>https://kostadinplachkov.github.io/project/aboutmekp/</link>
+      <pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://kostadinplachkov.github.io/project/calculatorjs/</guid>
+      <guid>https://kostadinplachkov.github.io/project/aboutmekp/</guid>
       <description>&lt;p&gt;Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text&lt;/p&gt;
 </description>
     </item>
@@ -61,7 +61,7 @@
     </item>
     
     <item>
-      <title>Machine Learning (Traditional)</title>
+      <title>Machine Learning</title>
       <link>https://kostadinplachkov.github.io/project/machine-learning/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       

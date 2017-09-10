@@ -1,10 +1,4 @@
 /*************************************************
- *  Hugo Academic: an academic theme for Hugo.
- *  Designed by @GeorgeCushen.
- *  https://github.com/gcushen/hugo-academic
- **************************************************/
-
-/*************************************************
  *  Core
  **************************************************/
 
@@ -217,7 +211,7 @@ blockquote p:last-child {
 }
 
 .home-section:first-of-type {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .home-section:nth-of-type(even) {
@@ -602,6 +596,7 @@ article {
 
 .project-toolbar{
   margin-bottom: 2rem;
+  margin-top: 7px;
 }
 
 .project-item {
@@ -615,6 +610,14 @@ article {
 .isotope-item:hover{
   z-index: 3;
 }
+
+.projects-section {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0 10px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
 
 /*************************************************
  *  Card component

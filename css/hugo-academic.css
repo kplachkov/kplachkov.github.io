@@ -212,6 +212,7 @@ blockquote p:last-child {
 
 .home-section:first-of-type {
   padding-top: 20px;
+  padding-bottom: 55px
 }
 
 .home-section:nth-of-type(even) {
@@ -600,7 +601,7 @@ article {
 }
 
 .project-item {
-  margin-bottom: 1.5rem;
+  
 }
 
 .isotope-item {
@@ -613,7 +614,7 @@ article {
 
 .projects-section {
   background-color: rgb(247, 247, 247);
-  padding: 10px 0 10px 0;
+  padding: 10px 0 35px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }

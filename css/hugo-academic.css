@@ -703,12 +703,9 @@ article {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.card:hover .card-image.hover-overlay:before {
-  opacity: 0.8;
-}
 
-.card:hover .card-image.hover-overlay:after {
-  opacity: 0.6;
+.card:hover .card-image.hover-overlay {
+  opacity: 0.5;
 }
 
 /*************************************************

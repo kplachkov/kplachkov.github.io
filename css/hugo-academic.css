@@ -614,7 +614,7 @@ article {
 
 .projects-section {
   background-color: rgb(247, 247, 247);
-  padding: 10px 0 35px 0;
+  padding: 35px 0 35px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }

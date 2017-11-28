@@ -3,14 +3,6 @@
   
     
     
-    <url>
-    
-      <loc>https://kplachkov.github.io/project/aboutmekp/</loc>
-      <lastmod>2017-08-13T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
     
     <url>
     
@@ -75,18 +67,10 @@
   
     
     
-    <url>
-    
-      <loc>https://kplachkov.github.io/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
     
     <url>
     
-      <loc>https://kplachkov.github.io/talk/example-talk/</loc>
+      <loc>https://kplachkov.github.io/talk/blockchain-plovdev/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -120,78 +104,6 @@
   
     
     
-    <url>
-    
-      <loc>https://kplachkov.github.io/post/getting-started/</loc>
-      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://kplachkov.github.io/post/widgets/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://kplachkov.github.io/post/managing-content/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://kplachkov.github.io/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-20T10:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://kplachkov.github.io/publication/person-re-identification/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://kplachkov.github.io/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://kplachkov.github.io/publication/clothing-search/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://kplachkov.github.io/tags/aboutmekp/</loc>
-      <lastmod>2017-08-13T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
     
     <url>
     
@@ -210,16 +122,7 @@
     </url>
     
   
-    
-    
-    <url>
-    
-      <loc>https://kplachkov.github.io/tags/hugo/</loc>
-      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
+
     
     
     <url>
@@ -231,15 +134,6 @@
     
   
     
-    
-    <url>
-    
-      <loc>https://kplachkov.github.io/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
     
     
     <url>

@@ -1,36 +1,41 @@
 {
-    "name": "Kostadin Plachkov",
-    "short_name": "K. Plachkov",
-    "display": "standalone",
-    "start_url": ".",
-    "background_color": "#ffffff",
-    "description": "Student of Computer Science",
-    "icons": [
-        {
-            "src": "img/touch/homescreen48.png",
-            "type": "image/png",
-            "sizes": "48x48"
-        },
-        {
-            "src": "img/touch/homescreen96.png",
-            "type": "image/png",
-            "sizes": "96x96"
-        },
-        {
-            "src": "img/touch/homescreen128.png",
-            "type": "image/png",
-            "sizes": "128x128"
-        },
-        {
-            "src": "img/touch/homescreen144.png",
-            "type": "image/png",
-            "sizes": "144x144"
-        },
-        {
-            "src": "img/touch/homescreen192.png",
-            "type": "image/png",
-            "sizes": "192x192"
-        }
-
-    ]
+  "name": "Kostadin Plachkov",
+  "short_name": "K. Plachkov",
+  "description": "Student of Computer Science",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "img/touch/homescreen48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "img/touch/homescreen96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/touch/homescreen128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "img/touch/homescreen144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "img/touch/homescreen192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/touch/homescreen512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }

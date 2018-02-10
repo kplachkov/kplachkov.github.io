@@ -4,7 +4,7 @@
   "description": "Student of Computer Science",
   "display": "standalone",
   "start_url": "/",
-  "background_color": "#ffffff",
+  "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {

@@ -2,6 +2,9 @@
     "name": "Kostadin Plachkov",
     "short_name": "K. Plachkov",
     "display": "standalone",
+    "start_url": ".",
+    "background_color": "#ffffff",
+    "description": "Student of Computer Science",
     "icons": [
         {
             "src": "img/touch/homescreen48.png",

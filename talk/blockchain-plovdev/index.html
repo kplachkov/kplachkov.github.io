@@ -11,8 +11,8 @@
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Blockchain and Cryptocurrency"/>
     <meta property="og:description" content="PlovDev is a one-day IT conference. The purpose of the event is to bring together students and business people to exchange experience and enthusiasm."/>
-    <meta property="og:image" content="https://kplachkov.github.io/img/talks/plovdev.jpg"/>
-    <meta property="og:url" content="https://kplachkov.github.io/talk/blockchain-plovdev/"/>
+    <meta property="og:image" content="/img/talks/plovdev.jpg"/>
+    <meta property="og:url" content="/talk/blockchain-plovdev/"/>
 
     <link rel="stylesheet" href="/css/highlight.min.css"/>
     <link rel="stylesheet" href="/css/bootstrap.min.css"/>
@@ -33,13 +33,13 @@
         ga('send', 'pageview');
     </script>
     <script async src="//www.google-analytics.com/analytics.js"></script>
-    <script async src="/js/autotrack.js"></script>
+    <script async src="/js/autotrack.min.js"></script>
 
-    <link rel="alternate" href="https://kplachkov.github.io/index.xml" type="application/rss+xml" title="Kostadin Plachkov"/>
-    <link rel="feed" href="https://kplachkov.github.io/index.xml" type="application/rss+xml" title="Kostadin Plachkov"/>
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Kostadin Plachkov"/>
+    <link rel="feed" href="/index.xml" type="application/rss+xml" title="Kostadin Plachkov"/>
     <link rel="icon" type="image/png" href="/img/icon.png"/>
     <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png"/>
-    <link rel="canonical" href="https://kplachkov.github.io/talk/blockchain-plovdev/"/>
+    <link rel="canonical" href="/talk/blockchain-plovdev/"/>
 
     <title>Blockchain and Cryptocurrency | Kostadin Plachkov</title>
 
@@ -258,6 +258,13 @@
 <script src="/js/academic.js"></script>
 <script src="/js/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/sw.min.js')
+            .then(function() { console.log("Service Worker Registered"); });
+    }
+</script>
 
 </body>
 </html>

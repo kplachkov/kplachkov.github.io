@@ -516,12 +516,11 @@
 <script src="/js/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 <script>
-    "use strict";
     navigator.serviceWorker.getRegistrations().then(function(registrations) {
         for(let registration of registrations) {
             registration.unregister();
         }
-    })
+    });
 </script>
 </body>
 </html>

@@ -10,13 +10,14 @@
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Blockchain</title>
+      <title>Blockchain and Cryptocurrency</title>
       <link>https://kplachkov.github.io/talk/blockchain-plovdev/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://kplachkov.github.io/talk/blockchain-plovdev/</guid>
-      <description>&lt;p&gt;PlovDev is an IT event&lt;/p&gt;
-</description>
+      <description>
+        &lt;p&gt;PlovDev is a one-day IT conference. The purpose of the event is to bring together students and business people to exchange experience and enthusiasm.&lt;/p&gt;
+      </description>
     </item>
     
   </channel>

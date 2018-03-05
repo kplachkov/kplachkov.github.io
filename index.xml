@@ -1,106 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kostadin Plachkov on Kostadin Plachkov</title>
+    <title>Kostadin Plachkov</title>
     <link>https://kplachkov.github.io/</link>
-    <description>Recent content in Kostadin Plachkov on Kostadin Plachkov</description>
+    <description>Recent content</description>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Kostadin Plachkov - All Rights Reserved.</copyright>
     <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
- 
-    
+
     <item>
-      <title>Deep Learning</title>
-      <link>https://kplachkov.github.io/project/deep-learning/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://kplachkov.github.io/project/deep-learning/</guid>
-      <description>&lt;p&gt;Deep learning is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Java Overview</title>
-      <link>https://kplachkov.github.io/project/java-overview/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://kplachkov.github.io/project/java-overview/</guid>
-      <description>&lt;p&gt;Topics: Files and Directories, Functional Programming, Manual String Processing, Regular Expressions, Stream API, Asynchronous Programming.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>KP Blog</title>
-      <link>https://kplachkov.github.io/project/kpblog/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://kplachkov.github.io/project/kpblog/</guid>
-      <description>&lt;p&gt;Blog system where you can register, read articles or create your own (Java, Spring MVC, Hibernate, MySQL).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MS SQL Server</title>
-      <link>https://kplachkov.github.io/project/sql-overview/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://kplachkov.github.io/project/sql-overview/</guid>
-      <description>&lt;p&gt;Topics: Basic CRUD, Built-in Functions, Data Aggregation, Table Relations, Subqueries and Joins and Functions, Triggers and Transactions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://kplachkov.github.io/project/machine-learning/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://kplachkov.github.io/project/machine-learning/</guid>
-      <description>&lt;p&gt;Machine learning is closely related to (and often overlaps with) computational statistics, which also focuses on prediction-making through the use of computers.&lt;/p&gt;
-</description>
-    </item>
-	
-	
-	
-	<item>
-      <title>FaceWallet</title>
-      <link>https://kplachkov.github.io/project/FaceWallet/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://kplachkov.github.io/project/FaceWallet/</guid>
-      <description>&lt;p&gt;FaceWallet is a secure online platform, embedded in Facebook, for storing and transferring digital currency. To get started, find @FaceWallet in Messenger.&lt;/p&gt;
-</description>
-    </item>
-	
-    
-    <item>
-      <title>OOP</title>
-      <link>https://kplachkov.github.io/project/oop/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://kplachkov.github.io/project/oop/</guid>
-      <description>&lt;p&gt;Topics: Polymorphism, Interfaces and Abstraction, Generics, Iterators and Comparators, Objects Communication and Events, Reflection, Unit Testing, Open/Closed and Liskov Principle.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Python Overview</title>
-      <link>https://kplachkov.github.io/project/python-overview/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://kplachkov.github.io/project/python-overview/</guid>
-      <description>&lt;p&gt;Topics: E-commerce, Requests and APIs, Algorithms, OOP, DB and SQLite, Files and Directories, Work with HTTP and CSV, XML, JSON.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Blockchain</title>
+      <title>Blockchain and Cryptocurrency</title>
       <link>https://kplachkov.github.io/talk/blockchain-plovdev/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://kplachkov.github.io/talk/blockchain-plovdev/</guid>
-      <description>&lt;p&gt;PlovDev is an IT event.&lt;/p&gt;
-		</description>
+      <description>
+          &lt;p&gt;PlovDev is a one-day IT conference. The purpose of the event is to bring together students and business people to exchange experience and enthusiasm.&lt;/p&gt;
+      </description>
     </item>
        
   </channel>

@@ -147,8 +147,7 @@ pre {
 hr {
   border: 0;
   height: 1px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  background: #333 linear-gradient(to right, #ccc, #333, #ccc);
 }
 
 /* Quotes */
@@ -249,7 +248,7 @@ blockquote p:last-child {
 }
 
 #profile .portrait {
-  background-image: url('../img/portrait.jpg');
+  background-image: url('../img/profile_pic.jpg');
   width: 200px;
   height: 200px;
   margin: 0 auto;
@@ -270,7 +269,7 @@ blockquote p:last-child {
   font-size: 1.13em;
   font-weight: 300;
   color: #AAAAAA;
-  margin: 0px 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 #profile ul.social-icon {
@@ -308,7 +307,7 @@ ul.ul-edu {
 
 ul.ul-edu li {
   position: relative;
-  padding: 0px 15px 4px 3px;
+  padding: 0 15px 4px 3px;
 }
 
 ul.ul-edu li .description p {
@@ -468,11 +467,8 @@ article {
 
 .article-style img,
 .article-style video {
-  box-shadow: 1px 1px 0px #edefed, -1px -1px 0px #edefed, 1px -1px 0px #edefed, -1px 1px 0px #edefed;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  box-shadow: 1px 1px 0 #edefed, -1px -1px 0 #edefed, 1px -1px 0 #edefed, -1px 1px 0 #edefed;
+  margin: 60px auto;
   padding-left: 0;
   padding-right: 0;
 }
@@ -667,42 +663,13 @@ article {
   margin-bottom: 0;
 }
 
-.card .card-image.hover-overlay:before {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  content: " ";
-  opacity: 0;
-  transition: all 0.2s ease-out;
-}
-
-.card .card-image.hover-overlay:after {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  transform: translate(0, -50%);
-  opacity: 0;
-  transition: all 0.2s ease-out;
-  font-family: 'FontAwesome';
-  content: '\f0c1';
-  text-align: center;
-  font-size: 3rem;
-  color: #666;
-}
-
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-
 .card:hover .card-image.hover-overlay {
-  opacity: 0.5;
+  -webkit-filter: contrast(115%); /* Safari */
+  filter: contrast(115%);
 }
 
 /*************************************************
@@ -949,7 +916,7 @@ nav#navbar-main li {
 
   .navbar-nav {
     float: none !important;
-    margin-top: 7.5px;
+    margin-top: 8px;
   }
 
   .navbar-nav > li {
@@ -1085,7 +1052,7 @@ div.alert p:first-child::before {
   position: absolute;
   top: -0.5rem;
   left: -2rem;
-  font-family: 'FontAwesome';
+  font-family: 'FontAwesome', serif;
   font-size: 1.5rem;
   color: #fff;
   content: '\f05a';

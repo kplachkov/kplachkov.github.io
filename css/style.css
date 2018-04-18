@@ -15,10 +15,10 @@
 }
 
 html {
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: rgba(0,0,0,0.8);
-  line-height: 1.65;
+  line-height: 1.6;
 }
 @media screen and (min-width: 58em) {
   html {
@@ -28,7 +28,7 @@ html {
 
 body {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.15rem;
   line-height: inherit;
   color: inherit;
   margin-top: 71px; /* Offset body content by navbar height. */
@@ -40,6 +40,20 @@ body {
     margin-top: 51px; /* Offset body content by navbar height. */
   }
 }
+
+.max-width-640 {
+  max-width: 640px;
+}
+
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
 
 /* Body text */
 p {
@@ -55,7 +69,7 @@ ul, ol, dl {
 
 /* Navigation bar text */
 .navbar-default {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
@@ -63,7 +77,7 @@ ul, ol, dl {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin-bottom: .5rem;
   line-height: 1.25;
@@ -79,7 +93,7 @@ h2 {
 }
 h3 {
   font-weight: 700;
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
@@ -188,6 +202,11 @@ blockquote p:last-child {
   }
 }
 
+small,
+.small {
+  font-size: .75em;
+}
+
 /*************************************************
  *  Home Sections
  **************************************************/
@@ -259,14 +278,14 @@ blockquote p:last-child {
 }
 
 #profile .portrait-title h2 {
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: 300;
   color: #000000;
   margin: 20px 0 10px 0;
 }
 
 #profile .portrait-title h3 {
-  font-size: 1.13em;
+  font-size: 1em;
   font-weight: 300;
   color: #AAAAAA;
   margin: 0 0 10px 0;
@@ -298,7 +317,7 @@ blockquote p:last-child {
 }
 
 ul.ul-interests li {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 ul.ul-edu {
@@ -315,11 +334,11 @@ ul.ul-edu li .description p {
 }
 
 ul.ul-edu li .description p.course {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 ul.ul-edu li .description p.institution {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: rgba(0,0,0,0.6);
 }
 
@@ -635,7 +654,7 @@ article {
 }
 
 .card h4 {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 700;
 }
 
@@ -656,7 +675,7 @@ article {
 
 .card .card-text p {
   color: #999999;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
 }
 
 .card p:last-child {
@@ -702,7 +721,7 @@ article {
  **************************************************/
 
 footer {
-  margin: 4rem 0 0;
+  margin: 3.25rem 0 0;
   padding: 2rem 0;
   width: 100%;
 }
@@ -874,7 +893,7 @@ nav#navbar-main li {
 .navbar-default .navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1em;
   color: #2b2b2b;
 }
 

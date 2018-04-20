@@ -611,7 +611,7 @@ article {
 
 .project-toolbar{
   margin-bottom: 2rem;
-  margin-top: 7px;
+  margin-top: 4px;
 }
 
 .project-item {
@@ -758,7 +758,7 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-toolbar .btn {
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 10px 14px 9px;
   border: none;
 }

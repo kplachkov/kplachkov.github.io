@@ -1,9 +1,7 @@
 (function ($) {
-
-    /* ---------------------------------------------------------------------------
+    /**
      * Responsive scrolling for URL hashes.
-     * --------------------------------------------------------------------------- */
-
+     */
     // Dynamically get responsive navigation bar offset.
     let $navbar = $('.navbar-header');
     let navbar_offset = $navbar.innerHeight();
@@ -45,10 +43,9 @@
     // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
     window.addEventListener("hashchange", scrollToAnchor);
 
-    /* ---------------------------------------------------------------------------
+    /**
      * Add smooth scrolling to all links inside the main navbar.
-     * --------------------------------------------------------------------------- */
-
+     */
     $('#navbar-main li.nav-item a').on('click', function (event) {
         // Store requested URL hash.
         let hash = this.hash;
@@ -66,10 +63,9 @@
         }
     });
 
-    /* ---------------------------------------------------------------------------
+    /**
      * Smooth scrolling for Back To Top link.
-     * --------------------------------------------------------------------------- */
-
+     */
     $('#back_to_top').on('click', function (event) {
         event.preventDefault();
         $('html, body').animate({
@@ -79,10 +75,9 @@
         });
     });
 
-    /* ---------------------------------------------------------------------------
+    /**
      * Hide mobile collapsable menu on clicking a link.
-     * --------------------------------------------------------------------------- */
-
+     */
     $(document).on('click', '.navbar-collapse.in', function (e) {
         //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
         let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
@@ -92,10 +87,9 @@
         }
     });
 
-    /* ---------------------------------------------------------------------------
+    /**
      * Filter projects.
-     * --------------------------------------------------------------------------- */
-
+     */
     let $grid_projects = $('#container-projects');
     $grid_projects.imagesLoaded(function () {
         // Initialize Isotope after all images have loaded.
@@ -113,54 +107,9 @@
         });
     });
 
-    /* ---------------------------------------------------------------------------
-     * Filter publications.
-     * --------------------------------------------------------------------------- */
-
-    let $grid_pubs = $('#container-publications');
-    $grid_pubs.isotope({
-        itemSelector: '.isotope-item',
-        percentPosition: true,
-        masonry: {
-            // Use Bootstrap compatible grid layout.
-            columnWidth: '.grid-sizer'
-        }
-    });
-
-    // Bind publication filter on dropdown change.
-    $('.pub-filters-select').on('change', function () {
-        // Get filter value from option value.
-        let filterValue = this.value;
-        // Apply filter to Isotope.
-        $grid_pubs.isotope({filter: filterValue});
-
-        // Set hash URL to current filter.
-        let url = $(this).val();
-        if (url.substr(0, 9) == '.pubtype-') {
-            window.location.hash = url.substr(9);
-        } else {
-            window.location.hash = '';
-        }
-    });
-
-    // Filter publications according to hash in URL.
-    function filter_publications() {
-        let urlHash = window.location.hash.replace('#', '');
-        let filterValue = '*';
-
-        // Check if hash is numeric.
-        if (urlHash != '' && !isNaN(urlHash)) {
-            filterValue = '.pubtype-' + urlHash;
-        }
-
-        $('.pub-filters-select').val(filterValue);
-        $grid_pubs.isotope({filter: filterValue});
-    }
-
-    /* ---------------------------------------------------------------------------
+    /**
      * On window load.
-     * --------------------------------------------------------------------------- */
-
+     */
     $(window).on('load', function () {
         if (window.location.hash) {
             // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
@@ -189,7 +138,5 @@
             // Useful for changing hash manually (e.g. in development):
             // window.addEventListener('hashchange', filter_publications, false);
         }
-
     });
-
 })(jQuery);

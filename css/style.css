@@ -31,7 +31,7 @@ body {
   font-size: 1.15rem;
   line-height: inherit;
   color: inherit;
-  margin-top: 71px; /* Offset body content by navbar height. */
+  margin-top: 59px; /* Offset body content by navbar height. */
   padding-top: 0;
   counter-reset: captions;
 }
@@ -825,7 +825,7 @@ footer a#back_to_top i {
  **************************************************/
 
 .navbar {
-  min-height: 70px !important;
+  min-height: 58px !important;
 }
 
 .navbar-default {
@@ -867,8 +867,8 @@ nav#navbar-main li {
 .navbar-nav li a {
   height: inherit;
   line-height: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .dropdown-menu > li > a {

@@ -675,7 +675,7 @@ article {
 
 .card .card-text p {
   color: #999999;
-  font-size: 0.75rem;
+  font-size: 0.767rem;
 }
 
 .card p:last-child {
@@ -727,7 +727,7 @@ footer {
 }
 
 footer p {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 

@@ -287,7 +287,7 @@ small,
 #profile .portrait-title h3 {
   font-size: 1em;
   font-weight: 300;
-  color: #AAAAAA;
+  color: #333333;
   margin: 0 0 10px 0;
 }
 
@@ -338,7 +338,7 @@ ul.ul-edu li .description p.course {
 }
 
 ul.ul-edu li .description p.institution {
-  font-size: 0.85rem;
+  font-size: 0.90rem;
   color: rgba(0,0,0,0.6);
 }
 
@@ -674,7 +674,7 @@ article {
 }
 
 .card .card-text p {
-  color: #999999;
+  color: #222222;
   font-size: 0.767rem;
 }
 

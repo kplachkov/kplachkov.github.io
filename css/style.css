@@ -228,7 +228,7 @@ small,
 }
 
 .home-section:first-of-type {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 35px
 }
 
@@ -614,10 +614,6 @@ article {
   margin-top: 4px;
 }
 
-.project-item {
-  
-}
-
 .isotope-item {
   z-index: 2;
 }
@@ -628,7 +624,7 @@ article {
 
 .projects-section {
   background-color: rgb(247, 247, 247);
-  padding: 35px 0 85px 0;
+  padding: 30px 0 85px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
@@ -643,8 +639,8 @@ article {
   overflow: hidden;
   text-overflow: ellipsis;
   background: #fff;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  transition: all 0.2s ease-out;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.7);
+  transition: all 0.3s ease-out;
 }
 
 .card .card-image {
@@ -683,7 +679,7 @@ article {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 12px 28px 0 rgba(0,0,0,0.4);
 }
 
 .card:hover .card-image.hover-overlay {
@@ -761,6 +757,7 @@ footer a#back_to_top i {
   font-size: 1rem;
   padding: 10px 14px 9px;
   border: none;
+  box-shadow: 0 2px 1px 0 rgba(0,0,0,0.8);
 }
 
 .btn-toolbar .btn:first-child {

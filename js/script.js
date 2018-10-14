@@ -1,10 +1,11 @@
 (function ($) {
+    'use strict';
     /**
      * Responsive scrolling for URL hashes.
      */
     // Dynamically get responsive navigation bar offset.
-    let $navbar = $('.navbar-header');
-    let navbar_offset = $navbar.innerHeight();
+    var $navbar = $('.navbar-header');
+    var navbar_offset = $navbar.innerHeight();
 
     /**
      * Responsive hash scrolling.
@@ -31,8 +32,8 @@
 
     // Make Scrollspy responsive.
     function fixScrollspy() {
-        let $body = $('body');
-        let data = $body.data('bs.scrollspy');
+        var $body = $('body');
+        var data = $body.data('bs.scrollspy');
         if (data) {
             data.options.offset = navbar_offset;
             $body.data('bs.scrollspy', data);
@@ -48,7 +49,7 @@
      */
     $('#navbar-main li.nav-item a').on('click', function (event) {
         // Store requested URL hash.
-        let hash = this.hash;
+        var hash = this.hash;
 
         // If we are on the homepage and the navigation bar link is to a homepage section.
         if (hash && $(hash).length && ($("#homepage").length > 0)) {
@@ -80,7 +81,7 @@
      */
     $(document).on('click', '.navbar-collapse.in', function (e) {
         //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
-        let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
+        var targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
 
         if (targetElement.is('a') && targetElement.attr('class') != 'dropdown-toggle') {
             $(this).collapse('hide');
@@ -90,7 +91,7 @@
     /**
      * Filter projects.
      */
-    let $grid_projects = $('#container-projects');
+    var $grid_projects = $('#container-projects');
     $grid_projects.imagesLoaded(function () {
         // Initialize Isotope after all images have loaded.
         $grid_projects.isotope({
@@ -100,7 +101,7 @@
 
         // Filter items when filter link is clicked.
         $('#filters a').click(function () {
-            let selector = $(this).attr('data-filter');
+            var selector = $(this).attr('data-filter');
             $grid_projects.isotope({filter: selector});
             $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
             return false;
@@ -122,11 +123,11 @@
         }
 
         // Initialize Scrollspy.
-        let $body = $('body');
+        var $body = $('body');
         $body.scrollspy({offset: navbar_offset});
 
         // Call `fixScrollspy` when window is resized.
-        let resizeTimer;
+        var resizeTimer;
         $(window).resize(function () {
             clearTimeout(resizeTimer);
             resizeTimer = setTimeout(fixScrollspy, 200);

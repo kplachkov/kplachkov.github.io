@@ -17,7 +17,7 @@
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0);
     line-height: 1.6;
 }
 
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     margin-bottom: .5rem;
     line-height: 1.25;
-    color: #313131;
+    color: #000000;
     text-rendering: optimizeLegibility;
 }
 
@@ -350,7 +350,7 @@ ul.ul-edu li .description p.course {
 
 ul.ul-edu li .description p.institution {
     font-size: 0.90rem;
-    color: rgba(0, 0, 0, 0.6);
+    color: #333333;
 }
 
 /*************************************************
@@ -622,8 +622,8 @@ article {
 }
 
 .project-toolbar {
-    margin-bottom: 2rem;
-    margin-top: 4px;
+    margin-bottom: 1.8rem;
+    margin-top: 13px;
 }
 
 .isotope-item {
@@ -652,7 +652,7 @@ article {
     background: #fff;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-out;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 0.3rem;
 }
 
@@ -746,7 +746,24 @@ footer a#back_to_top i {
 }
 
 /*************************************************
- *  Button Primary: Color Override
+ *  Button size override
+ *************************************************/
+
+.btn {
+    padding: .5rem;
+    font-size: .8rem;
+    line-height: .5;
+    border-radius: .3rem;
+}
+
+.btn.btn-sm {
+    padding: .4rem;
+    font-size: .6rem;
+    border-radius: .2rem;
+}
+
+/*************************************************
+ *  Button Primary: Color override
  **************************************************/
 
 .btn-primary {
@@ -770,7 +787,7 @@ footer a#back_to_top i {
     font-size: 1rem;
     padding: 10px 14px 9px;
     border: none;
-    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.8);
 }
 
 .btn-toolbar .btn:first-child {
@@ -783,43 +800,23 @@ footer a#back_to_top i {
 
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
-    background-color: rgba(0, 149, 235, 0.6);
+    background-color: rgba(0, 149, 235, .6) !important;
 }
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
-    background-color: rgba(0, 89, 175, 1);
+    background-color: #0059AF !important;
 }
 
-/*************************************************
- *  Button Outlines
- **************************************************/
-
-.btn-outline {
-    background-color: transparent;
-    color: inherit;
-    transition: all .5s;
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem #0095eb;
 }
 
 .btn-primary.btn-outline {
     color: #0095eb;
     border-color: #0095eb;
-}
-
-.btn-success.btn-outline {
-    color: #5cb85c;
-}
-
-.btn-info.btn-outline {
-    color: #5bc0de;
-}
-
-.btn-warning.btn-outline {
-    color: #f0ad4e;
-}
-
-.btn-danger.btn-outline {
-    color: #d9534f;
 }
 
 .btn-primary.btn-outline:hover,

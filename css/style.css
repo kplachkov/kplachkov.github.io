@@ -117,6 +117,7 @@ h3.article-title a:hover {
 a:hover,
 a:focus {
     color: #005181;
+    text-decoration: none;
 }
 
 img,
@@ -403,6 +404,50 @@ ul.share li:hover .fa {
 }
 
 /*************************************************
+ *  Stream
+ **************************************************/
+
+.media.stream-item {
+    margin-bottom: 0;
+}
+
+.media.stream-item .article-title {
+    font-size: 1.5rem;
+    padding: 0;
+    margin-top: 0;
+}
+
+.media.stream-item .article-style {
+    margin-top: 2px;
+    font-size: 18px;
+    padding: 0;
+}
+
+.media.stream-item .stream-meta {
+    margin-top: 12px;
+    padding: 0;
+}
+
+.media.stream-item .article-image {
+    float: right;
+    padding: 0.7rem 0;
+}
+
+.media.stream-item img {
+    height: auto;
+    object-fit: cover;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.3rem;
+    float: right;
+}
+
+@media screen and (max-width: 768px) {
+    .media.stream-item img {
+        max-width: 100%;
+    }
+}
+
+/*************************************************
  *  Blog Articles
  **************************************************/
 
@@ -463,9 +508,9 @@ article {
 }
 
 .article-metadata {
-    margin-bottom: 20px;
+    margin-bottom: 0;
     line-height: 30px; /* Match share bar line height. */
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.03em;
     color: #888;
 }

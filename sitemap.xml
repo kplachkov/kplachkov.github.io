@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://kplachkov.github.io/</loc>
-        <lastmod>2018-03-05</lastmod>
+        <lastmod>2019-03-18</lastmod>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>https://kplachkov.github.io/talk/blockchain-plovdev/</loc>
-        <lastmod>2018-03-05</lastmod>
+        <lastmod>2019-03-18</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
         <loc>https://kplachkov.github.io/talk/</loc>
-        <lastmod>2018-03-05</lastmod>
+        <lastmod>2019-03-18</lastmod>
         <priority>0.1</priority>
     </url>
 </urlset>

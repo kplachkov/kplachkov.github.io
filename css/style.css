@@ -324,6 +324,10 @@ small,
     transform: scale(1.2)
 }
 
+#description {
+    padding-top: 30px;
+}
+
 .big-icon {
     font-size: 2rem;
 }
@@ -886,7 +890,7 @@ footer a#back_to_top i {
 }
 
 nav#navbar-main li {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .navbar-default .navbar-nav > li > a,

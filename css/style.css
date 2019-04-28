@@ -1161,3 +1161,102 @@ div.alert a:hover {
     background-color: #f44336; /* Material Red500 */
     border-color: #ebccd1;
 }
+
+/*************************************************
+ *  Contact
+ **************************************************/
+
+.form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+    .form-inline label {
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .sr-only {
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 576px) {
+    .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle;
+    }
+
+    .w-100 {
+        width: 100% !important;
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        height: calc(2.25rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        resize: vertical;
+    }
+}
+
+.pl-3, .px-3 {
+    padding-left: 1rem !important;
+}
+
+.pr-3, .px-3 {
+    padding-right: 1rem !important;
+}
+
+.pb-2, .py-2 {
+    padding-bottom: .5rem !important;
+}
+
+.pt-2, .py-2 {
+    padding-top: .5rem !important;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn-outline-primary {
+    color: #0095eb;
+    background-color: transparent;
+    background-image: none;
+    border-color: #0095eb;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #0095eb;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border-color: #0095eb;
+}

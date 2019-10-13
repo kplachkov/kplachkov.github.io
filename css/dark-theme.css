@@ -32,7 +32,7 @@ ul.ul-edu li .description p.institution {
 }
 
 a, .article-title a {
-    color: #F9F5D3;
+    color: #FF8040;
 }
 
 ul.share li a {
@@ -40,7 +40,7 @@ ul.share li a {
 }
 
 a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
-    color: #FF8040;
+    color: #ffb693;
 }
 
 #contact.home-section .fa-li {

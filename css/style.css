@@ -92,14 +92,14 @@ h4, h5, h6 {
     font-size: 1rem
 }
 
-a, h3.article-title a:hover {
-    color: #0095eb;
+a, h3.article-title {
+    color: #0076DF;
     text-decoration: none;
     transition: color .6s ease
 }
 
-a:focus, a:hover {
-    color: #005181;
+a:focus, a:hover, h3.article-title:hover {
+    color: #3bb6ff;
     text-decoration: none
 }
 
@@ -475,11 +475,6 @@ article {
     font-size: 1.75rem
 }
 
-.article-title a {
-    color: #151515;
-    transition: color .6s ease
-}
-
 .article-metadata {
     margin-bottom: 0;
     line-height: 30px; /* Match share bar line height. */
@@ -686,7 +681,7 @@ article {
 }
 
 .card h4 a:hover {
-    color: #0095eb;
+    color: #3bb6ff;
     text-decoration: none
 }
 
@@ -781,7 +776,12 @@ footer p {
     border-color: #0095eb
 }
 
-.btn-primary, .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary {
+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary {
     background: #0095eb
 }
 
@@ -804,15 +804,19 @@ footer p {
     border-radius: 0 6px 6px 0
 }
 
-.btn-toolbar .btn.btn-primary:focus, .btn-toolbar .btn.btn-primary:hover {
+.btn-toolbar .btn.btn-primary:focus,
+.btn-toolbar .btn.btn-primary:hover {
     background-color: rgba(0, 149, 235, .6) !important
 }
 
-.btn-toolbar .btn.btn-primary.active, .btn-toolbar .btn.btn-primary:active {
+.btn-toolbar .btn.btn-primary.active,
+.btn-toolbar .btn.btn-primary:active {
     background-color: #0059af !important
 }
 
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
     box-shadow: 0 0 0 .2rem #0095eb
 }
 
@@ -821,7 +825,11 @@ footer p {
     border-color: #0095eb
 }
 
-.btn-danger.btn-outline:hover, .btn-info.btn-outline:hover, .btn-primary.btn-outline:hover, .btn-success.btn-outline:hover, .btn-warning.btn-outline:hover {
+.btn-danger.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-warning.btn-outline:hover {
     color: #fff
 }
 
@@ -842,7 +850,9 @@ nav#navbar-main li {
     font-size: 17px
 }
 
-.navbar-default .navbar-nav > a:focus, .navbar-default .navbar-nav > a:hover, .navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > a:focus,
+.navbar-default .navbar-nav > a:hover,
+.navbar-default .navbar-nav > li > a {
     white-space: nowrap;
     -webkit-transition: .2s ease;
     transition: .2s ease;
@@ -854,12 +864,14 @@ nav#navbar-main li {
     white-space: nowrap;
     -webkit-transition: .2s ease;
     transition: .2s ease;
-    color: #0095eb;
+    color: #0076DF;
     font-weight: 600
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #0095eb;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #0076DF;
     font-weight: 700;
     background-color: transparent !important /* Override Bootstrap. */
 }
@@ -880,7 +892,9 @@ nav#navbar-main li {
     white-space: nowrap
 }
 
-.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
     color: #fff;
     text-decoration: none;
     background-color: #0095eb;
@@ -969,12 +983,15 @@ nav#navbar-main li {
         color: #34495e
     }
 
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
         color: inherit;
         background-color: transparent
     }
 
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
         color: #0095eb;
         background-color: transparent
     }

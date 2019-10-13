@@ -137,7 +137,7 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 }
 
 .card:hover {
-    box-shadow: 0 4px 8px 0 rgba(254, 99, 24, .8);
+    box-shadow: 0 6px 16px 0 rgba(254, 99, 24, .8);
 }
 
 .form-control {

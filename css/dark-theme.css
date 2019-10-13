@@ -129,7 +129,6 @@ a:focus, a:hover, .article-title a:hover, h3.article-title a:hover {
 
 .card h4 a:hover {
     color: #FF8040;
-    border-bottom: 1px solid #FF8040;
     text-decoration: none;
 }
 

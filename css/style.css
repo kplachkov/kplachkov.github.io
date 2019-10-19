@@ -806,18 +806,25 @@ footer p {
 
 .btn-toolbar .btn.btn-primary:focus,
 .btn-toolbar .btn.btn-primary:hover {
-    background-color: rgba(0, 149, 235, .6) !important
+    background-color: #0076df !important;
+    z-index: 1;
 }
 
 .btn-toolbar .btn.btn-primary.active,
 .btn-toolbar .btn.btn-primary:active {
-    background-color: #0059af !important
+    background-color: #0076df !important;
+    box-shadow: 0 0 0 .2rem #3bb6ff
+}
+
+.btn-toolbar .btn.btn-primary.active:hover,
+.btn-toolbar .btn.btn-primary.active:focus {
+    z-index: 999;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem #0095eb
+    box-shadow: 0 0 0 .2rem #3bb6ff
 }
 
 .btn-primary.btn-outline {
@@ -1208,7 +1215,8 @@ div.alert a:hover {
     border-color: #0095eb
 }
 
-.btn-outline-primary:hover {
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
     color: #fff;
     background-color: #0095eb;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;

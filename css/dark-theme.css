@@ -54,21 +54,15 @@ h3.article-title a:hover {
     box-shadow: 0 0 1px 0 rgba(255, 255, 255, .8);
 }
 
-.btn-toolbar .btn.btn-primary.active, .btn-toolbar .btn.btn-primary:active {
-    background-color: #FE6318 !important;
+.btn-toolbar .btn.btn-primary.active,
+.btn-toolbar .btn.btn-primary:active {
+    background-color: rgba(228, 86, 20, 0.96) !important;
     box-shadow: 0 0 0 0.2rem #FFB693;
 }
 
-.btn-toolbar .btn.btn-primary:focus, .btn-toolbar .btn.btn-primary:hover {
-    background-color: #FE6318 !important;
-}
-
+.btn-toolbar .btn.btn-primary:focus,
 .btn-toolbar .btn.btn-primary:hover {
-    z-index: 1;
-}
-
-.btn-toolbar .btn.btn-primary.active:hover {
-    z-index: 999;
+    background-color: rgba(228, 86, 20, 0.96) !important;
 }
 
 .btn-primary,
@@ -77,7 +71,7 @@ h3.article-title a:hover {
 .btn-primary:focus,
 .btn-primary:hover,
 .open > .dropdown-toggle.btn-primary {
-    background-color: #FF8040 !important;
+    background-color: #FE6318 !important;
 }
 
 .navbar-default {
@@ -89,7 +83,8 @@ h3.article-title a:hover {
     color: #f2f2f2;
 }
 
-.navbar-default .navbar-brand:hover {
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
     color: #fff;
 }
 
@@ -124,7 +119,8 @@ h3.article-title a:hover {
     border-color: #FF8040;
 }
 
-.btn-outline-primary:hover {
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
     background-color: #FF8040;
     border-color: #FF8040;
 }

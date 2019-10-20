@@ -133,4 +133,26 @@
             resizeTimer = setTimeout(fixScrollspy, 200);
         });
     });
+
+    $('#theme-change').click(function(e) {
+        e.preventDefault();
+        if ($(this).children(0).hasClass('fa-sun-o')) {
+            $(this).children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-moon-o');
+            $('#theme').attr('href', "/css/light-theme.min.css");
+            $.cookie('theme', 0, { expires: 60, path: '/' });
+        } else {
+            $(this).children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-sun-o');
+            $('#theme').attr('href', "/css/dark-theme.min.css");
+            $.cookie('theme', 1, { expires: 60, path: '/' });
+        }
+    });
+    if ($.cookie('theme')==null || $.cookie('theme')==0)
+    {
+        $('#theme').attr('href', "/css/light-theme.min.css");
+        $('#theme-change').children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-moon-o');
+    }
+    else {
+        $('#theme').attr('href', "/css/dark-theme.min.css");
+        $('#theme-change').children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-sun-o');
+    }
 })(jQuery);

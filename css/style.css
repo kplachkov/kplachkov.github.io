@@ -5,25 +5,24 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
-.row:after,
-.row:before {
+.row:after, .row:before {
     content: " ";
-    display: table;
+    display: table
 }
 
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: rgb(0, 0, 0);
-    line-height: 1.6;
+    color: #000;
+    line-height: 1.6
 }
 
 @media screen and (min-width: 58em) {
     html {
-        font-size: 20px;
+        font-size: 20px
     }
 }
 
@@ -40,96 +39,79 @@ body {
 @media screen and (max-width: 1200px) {
     /* Match max-width of .nav-bar query. */
     body {
-        margin-top: 47px; /* Offset body content by navbar height. */
+        margin-top: 47px /* Offset body content by navbar height. */
     }
 }
 
 .max-width-640 {
-    max-width: 640px;
+    max-width: 640px
 }
 
 .margin-auto {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
 }
 
 .center-text {
-    text-align: center;
+    text-align: center
 }
 
-/* Body text */
-p {
+dl, ol, p, ul {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem
 }
 
-/* Lists */
-ul, ol, dl {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-/* Navigation bar text */
-.navbar-default {
+.navbar-default, h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.25;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility
 }
 
-/* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    margin-bottom: .5rem;
-    line-height: 1.25;
-    color: #000000;
-    text-rendering: optimizeLegibility;
+    margin-bottom: .5rem
 }
 
 h1 {
-    font-size: 2.25rem;
+    font-size: 2.25rem
 }
 
 h2 {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.5rem
 }
 
 h3 {
     font-weight: 700;
     margin-top: 1.25rem;
-    font-size: 1.25rem;
+    font-size: 1.25rem
 }
 
 h4, h5, h6 {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1rem
 }
 
-a,
-h3.article-title a:hover {
-    color: #0095eb;
+a, h3.article-title {
+    color: #0076DF;
     text-decoration: none;
-    transition: color 0.6s ease;
+    transition: color .6s ease
 }
 
-a:hover,
-a:focus {
-    color: #005181;
-    text-decoration: none;
+a:focus, a:hover, h3.article-title:hover {
+    color: #3bb6ff;
+    text-decoration: none
 }
 
-img,
-video {
+img, video {
     height: auto;
     max-width: 100%;
-    display: block;
+    display: block
 }
 
 .img-responsive {
     /* Extend Bootstrap declaration with centering. */
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 figcaption:before {
@@ -140,7 +122,7 @@ figcaption:before {
 
 figcaption {
     display: block;
-    margin-top: 0.75em;
+    margin-top: .75em;
     line-height: 1.25;
     font-size: 1rem;
     margin-bottom: 1.65rem;
@@ -152,23 +134,22 @@ figcaption h4 {
     display: inline-block;
     font-size: 1rem;
     font-weight: 400;
-    margin: 0;
+    margin: 0
 }
 
-pre,
-code {
-    font-family: 'Roboto', sans-serif;
+code, pre {
+    font-family: 'Roboto', sans-serif
 }
 
 pre {
-    margin: 0 0 1rem 0;
-    overflow: auto;
+    margin: 0 0 1rem;
+    overflow: auto
 }
 
 hr {
     border: 0;
     height: 1px;
-    background: #333 linear-gradient(to right, #ccc, #333, #ccc);
+    background: #333 linear-gradient(90deg, #ccc, #333, #ccc)
 }
 
 /* Quotes */
@@ -176,27 +157,27 @@ blockquote {
     padding: .5rem 1rem;
     margin: .8rem 0;
     color: #7a7a7a;
-    border-left: .25rem solid #e5e5e5;
+    border-left: .25rem solid #e5e5e5
 }
 
 blockquote p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 
 @media (min-width: 30em) {
     blockquote {
         padding-right: 5rem;
-        padding-left: 1.25rem;
+        padding-left: 1.25rem
     }
 }
 
 .space-below {
-    margin-bottom: 50px;
+    margin-bottom: 50px
 }
 
 @media screen and (max-width: 768px) {
     .space-below {
-        margin-bottom: 10px;
+        margin-bottom: 10px
     }
 }
 
@@ -204,38 +185,27 @@ blockquote p:last-child {
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
-    width: 100%;
+    width: 100%
 }
 
 @media only screen and (min-width: 1001px) {
     .universal-wrapper {
-        width: 1000px;
+        width: 1000px
     }
 }
 
-small,
-.small {
-    font-size: .75em;
+.small, small {
+    font-size: .75em
 }
 
 /*************************************************
  *  Home Sections
  **************************************************/
 
-@keyframes intro {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 .home-section {
-    background-color: rgb(255, 255, 255);
-    padding: 110px 0 110px 0;
-    animation: intro 0.3s both;
-    animation-delay: 0.15s;
+    background-color: #fff;
+    padding: 110px 0;
+    animation-delay: .15s
 }
 
 .home-section:first-of-type {
@@ -243,29 +213,29 @@ small,
     padding-bottom: 35px
 }
 
-.home-section:nth-of-type(even) {
-    background-color: rgb(247, 247, 247);
+.home-section:nth-of-type(2n) {
+    background-color: #f7f7f7
 }
 
 @media screen and (max-width: 768px) {
     .home-section {
-        padding: 60px 0 60px 0;
+        padding: 60px 0
     }
 
     .home-section:first-of-type {
-        padding-top: 40px;
+        padding-top: 40px
     }
 }
 
 .section-heading h1 {
-    margin: 0 0 10px 0;
+    margin: 0 0 10px
 }
 
 .section-heading p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
-    color: #b2b2b2;
+    color: #b2b2b2
 }
 
 /*************************************************
@@ -275,32 +245,32 @@ small,
 #profile {
     text-align: center;
     padding: 30px 10px;
-    position: relative;
+    position: relative
 }
 
 #profile .portrait {
-    background-image: url('../img/profile_pic.jpg');
+    background-image: url(../img/profile_pic.jpg);
     width: 200px;
     height: 200px;
     margin: 0 auto;
     border-radius: 50%;
     background-size: cover;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
+    -moz-background-size: cover
 }
 
 #profile .portrait-title h2 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #000000;
-    margin: 20px 0 10px 0;
+    color: #000;
+    margin: 20px 0 10px
 }
 
 #profile .portrait-title h3 {
     font-size: 1em;
     font-weight: 300;
-    color: #333333;
-    margin: 0 0 10px 0;
+    color: #333;
+    margin: 0 0 10px
 }
 
 #profile ul.social-icon {
@@ -309,15 +279,15 @@ small,
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
-    margin-top: 30px;
+    margin-top: 30px
 }
 
 #profile .social-icon li {
-    margin-right: 10px;
+    margin-right: 10px
 }
 
 #profile .social-icon li:last-of-type {
-    margin-right: 0;
+    margin-right: 0
 }
 
 #profile .social-icon li:hover {
@@ -325,37 +295,37 @@ small,
 }
 
 #description {
-    padding-top: 30px;
+    padding-top: 30px
 }
 
 .big-icon {
-    font-size: 2rem;
+    font-size: 2rem
 }
 
 ul.ul-interests li {
-    font-size: 0.95rem;
+    font-size: .95rem
 }
 
 ul.ul-edu {
-    list-style: none;
+    list-style: none
 }
 
 ul.ul-edu li {
     position: relative;
-    padding: 0 15px 4px 3px;
+    padding: 0 15px 4px 3px
 }
 
 ul.ul-edu li .description p {
-    margin: 0;
+    margin: 0
 }
 
 ul.ul-edu li .description p.course {
-    font-size: 0.95rem;
+    font-size: .95rem
 }
 
 ul.ul-edu li .description p.institution {
-    font-size: 0.90rem;
-    color: #333333;
+    font-size: .9rem;
+    color: #333
 }
 
 /*************************************************
@@ -363,7 +333,7 @@ ul.ul-edu li .description p.institution {
  **************************************************/
 
 .share-box {
-    float: right;
+    float: right
 }
 
 ul.share {
@@ -372,16 +342,16 @@ ul.share {
     flex-wrap: wrap;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 ul.share li {
     display: inline-flex;
-    margin-right: 5px;
+    margin-right: 5px
 }
 
 ul.share li:last-of-type {
-    margin-right: 0;
+    margin-right: 0
 }
 
 ul.share li .fa {
@@ -391,8 +361,8 @@ ul.share li .fa {
     line-height: 30px;
     font-size: 16px;
     text-align: center;
-    transition: all 150ms ease-in-out;
-    color: #fff;
+    transition: all .15s ease-in-out;
+    color: #fff
 }
 
 ul.share li a {
@@ -400,7 +370,7 @@ ul.share li a {
     display: block;
     border-radius: 50%;
     text-decoration: none !important;
-    margin: 0;
+    margin: 0
 }
 
 ul.share li:hover .fa {
@@ -412,42 +382,42 @@ ul.share li:hover .fa {
  **************************************************/
 
 .media.stream-item {
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 
 .media.stream-item .article-title {
     font-size: 1.5rem;
     padding: 0;
-    margin-top: 0;
+    margin-top: 0
 }
 
 .media.stream-item .article-style {
     margin-top: 2px;
     font-size: 18px;
-    padding: 0;
+    padding: 0
 }
 
 .media.stream-item .stream-meta {
     margin-top: 12px;
-    padding: 0;
+    padding: 0
 }
 
 .media.stream-item .article-image {
     float: right;
-    padding: 0.7rem 0;
+    padding: .7rem 0
 }
 
 .media.stream-item img {
     height: auto;
     object-fit: cover;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 0.3rem;
-    float: right;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: .3rem;
+    float: right
 }
 
 @media screen and (max-width: 768px) {
     .media.stream-item img {
-        max-width: 100%;
+        max-width: 100%
     }
 }
 
@@ -456,24 +426,23 @@ ul.share li:hover .fa {
  **************************************************/
 
 article {
-    animation: intro 0.3s both;
-    animation-delay: 0.15s;
+    animation-delay: .15s
 }
 
 .article-container {
     max-width: 760px;
-    padding: 1rem 20px 0 20px;
-    margin: 0 auto 0 auto;
+    padding: 1rem 20px 0;
+    margin: 0 auto
 }
 
 .article-header {
     position: relative;
-    clear: both;
+    clear: both
 }
 
 .article-banner {
     width: 100%;
-    height: auto;
+    height: auto
 }
 
 .article-header-caption {
@@ -486,85 +455,77 @@ article {
     font-size: .7em;
     background: #000;
     text-align: right;
-    z-index: 5;
-    opacity: 0.65;
-    border-radius: 5px 0 0 0;
+    z-index: 3;
+    opacity: .65;
+    border-radius: 5px 0 0 0
 }
 
 @media (min-width: 64em) {
     .article-header-caption {
-        padding: 5px 10px;
+        padding: 5px 10px
     }
 }
 
 .article-header-caption a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .article-title {
-    font-size: 1.75rem;
-}
-
-.article-title a {
-    color: #151515;
-    transition: color 0.6s ease;
+    font-size: 1.75rem
 }
 
 .article-metadata {
     margin-bottom: 0;
     line-height: 30px; /* Match share bar line height. */
     font-size: 16px;
-    letter-spacing: 0.03em;
-    color: #888;
+    letter-spacing: .03em;
+    color: #888
 }
 
 .article-metadata a {
-    color: #888;
+    color: #888
 }
 
 .article-metadata a:hover {
-    color: #0095eb;
+    color: #0095eb
 }
 
 .article-list-item {
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 .article-list-item:last-child {
-    margin-bottom: 0 !important;
+    margin-bottom: 0 !important
 }
 
 .article-list-item .article-metadata {
-    margin-bottom: 5px;
+    margin-bottom: 5px
 }
 
-.article-metadata .article-date,
-.article-metadata .article-categories,
-.article-metadata .article-tags {
-    margin-right: 10px;
+.article-metadata .article-categories, .article-metadata .article-date, .article-metadata .article-tags {
+    margin-right: 10px
 }
 
-.article-style img,
-.article-style video {
+.article-style img, .article-style video {
     box-shadow: 1px 1px 0 #edefed, -1px -1px 0 #edefed, 1px -1px 0 #edefed, -1px 1px 0 #edefed;
     margin: 60px auto;
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0
 }
 
 .article-style figure {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 60px
 }
 
 .article-style figure img {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 
 #comments {
-    padding-top: 1rem;
+    padding-top: 1rem
 }
 
 /*************************************************
@@ -573,58 +534,58 @@ article {
 
 .pub-icon {
     color: #03396c;
-    font-size: 0.81em;
-    padding-top: 6px;
+    font-size: .81em;
+    padding-top: 6px
 }
 
 .pub-banner {
     max-width: 100%;
     height: auto;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
 }
 
 .pub .pub-title {
-    margin-bottom: 5px;
+    margin-bottom: 5px
 }
 
 .pub .pub-authors {
     font-style: italic;
-    line-height: 30px; /* Match share bar line height. */
+    line-height: 30px /* Match share bar line height. */
 }
 
 .pub .pub-row-heading {
-    font-weight: bold;
+    font-weight: 700
 }
 
 .pub-list-item {
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 .pub-list-item .pub-abstract {
-    font-size: 1rem;
+    font-size: 1rem
 }
 
 .pub-list-item .pub-authors {
     line-height: normal;
     font-style: normal;
     font-size: 1rem;
-    color: #3170A5;
+    color: #3170a5
 }
 
 .pub-list-item .pub-publication {
     color: #090;
-    font-size: 1rem;
+    font-size: 1rem
 }
 
 .pub-list-item .pub-links {
-    padding-top: 10px;
+    padding-top: 10px
 }
 
 #container-publications {
     display: block;
     position: relative;
-    overflow: hidden;
+    overflow: hidden
 }
 
 /*************************************************
@@ -633,7 +594,7 @@ article {
 
 .talk-event {
     color: #090;
-    font-size: 1rem;
+    font-size: 1rem
 }
 
 /*************************************************
@@ -641,53 +602,51 @@ article {
  **************************************************/
 
 #projects.home-section li {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem
 }
 
 #projects.home-section li:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 
 #projects.home-section .project-title {
     display: inline-block;
-    margin-bottom: 6px;
+    margin-bottom: 6px
 }
 
 #projects.home-section .project-summary {
-    font-size: 0.9rem;
-    margin-bottom: 0.4rem;
+    font-size: .9rem;
+    margin-bottom: .4rem
 }
 
 #projects.home-section .project-tags {
-    font-size: 0.75rem;
-    color: #9c9c9c;
+    font-size: .75rem;
+    color: #9c9c9c
 }
 
 #container-projects {
     display: block;
     position: relative;
-    /*margin-top: 5rem;*/
-    overflow: hidden;
+    overflow: hidden
 }
 
 .project-toolbar {
     margin-bottom: 1.8rem;
-    margin-top: 13px;
+    margin-top: 13px
 }
 
 .isotope-item {
-    z-index: 2;
+    z-index: 1
 }
 
 .isotope-item:hover {
-    z-index: 3;
+    z-index: 2
 }
 
 .projects-section {
-    background-color: rgb(247, 247, 247);
-    padding: 28px 0 85px 0;
-    animation: intro 0.3s both;
-    animation-delay: 0.15s;
+    background-color: #f7f7f7;
+    padding: 28px 0 85px;
+    animation-delay: .15s
 }
 
 /*************************************************
@@ -699,49 +658,48 @@ article {
     overflow: hidden;
     text-overflow: ellipsis;
     background: #fff;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
-    transition: all 0.3s ease-out;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 0.3rem;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .5);
+    transition: all .3s ease-out;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: .3rem
 }
 
 .card .card-image {
     display: block;
     position: relative;
-    min-height: 100px;
+    min-height: 100px
 }
 
 .card h4 {
-    font-size: 0.95rem;
-    font-weight: 700;
+    font-size: .95rem;
+    font-weight: 700
 }
 
 .card h4 a {
     color: #000;
-    border-bottom: solid 1px transparent;
+    border-bottom: 1px solid transparent
 }
 
 .card h4 a:hover {
-    color: #000;
-    border-bottom: solid 1px #000;
-    text-decoration: none;
+    color: #3bb6ff;
+    text-decoration: none
 }
 
 .card .card-text {
-    padding: 0.0rem 0.7rem 0.45rem;
+    padding: 0 .7rem .45rem
 }
 
 .card .card-text p {
-    color: #000000;
-    font-size: 16px;
+    color: #000;
+    font-size: 16px
 }
 
 .card p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 
 .card:hover {
-    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, .4)
 }
 
 .card:hover .card-image.hover-overlay {
@@ -754,24 +712,24 @@ article {
  **************************************************/
 
 #contact.home-section .fa-ul {
-    margin-left: 3.14285714rem; /* Must be > `fa-2x` icon size. */
+    margin-left: 3.14285714rem /* Must be > `fa-2x` icon size. */
 }
 
 #contact.home-section .fa-li {
     position: absolute;
     left: -3.14285714rem; /* Negative of `#contact.home-section .fa-ul` margin. */
     width: 2rem; /* Match `fa-2x` icon size. */
-    top: 0.14285714em; /* Default FA value. */
-    text-align: center;
+    top: .14285714em; /* Default FA value. */
+    text-align: center
 }
 
 #contact.home-section li {
-    padding-top: 0.8rem; /* Align text with bottom of `fa-2x` icon. */
-    margin-bottom: 0.3rem;
+    padding-top: .8rem; /* Align text with bottom of `fa-2x` icon. */
+    margin-bottom: .3rem
 }
 
 #contact.home-section li:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 
 /*************************************************
@@ -781,17 +739,16 @@ article {
 footer {
     margin: 3.25rem 0 0;
     padding: 2rem 0;
-    width: 100%;
+    width: 100%
 }
 
 footer p {
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: .8rem;
+    text-align: center
 }
 
-.site-footer,
-footer a#back_to_top i {
-    color: #899596;
+.site-footer, footer a#back_to_top i {
+    color: #899596
 }
 
 /*************************************************
@@ -802,13 +759,13 @@ footer a#back_to_top i {
     padding: .5rem;
     font-size: .8rem;
     line-height: .5;
-    border-radius: .3rem;
+    border-radius: .3rem
 }
 
 .btn.btn-sm {
     padding: .4rem;
     font-size: .6rem;
-    border-radius: .2rem;
+    border-radius: .2rem
 }
 
 /*************************************************
@@ -816,16 +773,16 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-    border-color: #0095eb;
-    background: #0095eb;
+    border-color: #0095eb
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
+.btn-primary,
 .btn-primary.active,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
 .open > .dropdown-toggle.btn-primary {
-    background: #0095eb;
+    background: #0095eb
 }
 
 /*************************************************
@@ -836,44 +793,51 @@ footer a#back_to_top i {
     font-size: 1rem;
     padding: 10px 14px 9px;
     border: none;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, .8)
 }
 
 .btn-toolbar .btn:first-child {
-    border-radius: 6px 0 0 6px;
+    border-radius: 6px 0 0 6px
 }
 
 .btn-toolbar .btn:last-child {
-    border-radius: 0 6px 6px 0;
+    border-radius: 0 6px 6px 0
 }
 
-.btn-toolbar .btn.btn-primary:hover,
-.btn-toolbar .btn.btn-primary:focus {
-    background-color: rgba(0, 149, 235, .6) !important;
+.btn-toolbar .btn.btn-primary:focus,
+.btn-toolbar .btn.btn-primary:hover {
+    background-color: #0076df !important;
+    z-index: 1;
 }
 
-.btn-toolbar .btn.btn-primary:active,
-.btn-toolbar .btn.btn-primary.active {
-    background-color: #0059AF !important;
+.btn-toolbar .btn.btn-primary.active,
+.btn-toolbar .btn.btn-primary:active {
+    background-color: #0076df !important;
+    box-shadow: 0 0 0 .2rem #3bb6ff
+}
+
+.btn-toolbar .btn.btn-primary.active:hover,
+.btn-toolbar .btn.btn-primary.active:focus {
+    z-index: 999;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem #0095eb;
+    box-shadow: 0 0 0 .2rem #3bb6ff
 }
 
 .btn-primary.btn-outline {
     color: #0095eb;
-    border-color: #0095eb;
+    border-color: #0095eb
 }
 
+.btn-danger.btn-outline:hover,
+.btn-info.btn-outline:hover,
 .btn-primary.btn-outline:hover,
 .btn-success.btn-outline:hover,
-.btn-info.btn-outline:hover,
-.btn-warning.btn-outline:hover,
-.btn-danger.btn-outline:hover {
-    color: #fff;
+.btn-warning.btn-outline:hover {
+    color: #fff
 }
 
 /*************************************************
@@ -881,49 +845,52 @@ footer a#back_to_top i {
  **************************************************/
 
 .navbar {
-    min-height: 48px !important;
+    min-height: 48px !important
+}
+
+.navbar .nav-item {
+    text-align: center;
 }
 
 .navbar-default {
     background: #fff;
-    box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, .11)
+    box-shadow: 0 .125rem .25rem 0 rgba(0, 0, 0, .11)
 }
 
 nav#navbar-main li {
-    font-size: 17px;
+    font-size: 17px
 }
 
-.navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > a:focus,
-.navbar-default .navbar-nav > a:hover {
+.navbar-default .navbar-nav > a:hover,
+.navbar-default .navbar-nav > li > a {
     white-space: nowrap;
-    -webkit-transition: 0.2s ease;
-    transition: 0.2s ease;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
     color: #34495e;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .navbar-default .navbar-nav > li > a:hover {
     white-space: nowrap;
-    -webkit-transition: 0.2s ease;
-    transition: 0.2s ease;
-    color: #0095eb;
-    font-weight: 600;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+    color: #0076DF;
+    font-weight: 600
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-    color: #0095eb;
+    color: #0076DF;
     font-weight: 700;
-    background-color: transparent !important; /* Override Bootstrap. */
+    background-color: transparent !important /* Override Bootstrap. */
 }
 
-.navbar-brand,
-.navbar-nav li a {
+.navbar-brand, .navbar-nav li a {
     height: inherit;
     padding-top: 14px;
-    padding-bottom: 14px;
+    padding-bottom: 14px
 }
 
 .dropdown-menu > li > a {
@@ -933,7 +900,7 @@ nav#navbar-main li {
     font-weight: 400;
     line-height: 1.42857143;
     color: #34495e;
-    white-space: nowrap;
+    white-space: nowrap
 }
 
 .dropdown-menu > .active > a,
@@ -942,65 +909,63 @@ nav#navbar-main li {
     color: #fff;
     text-decoration: none;
     background-color: #0095eb;
-    outline: 0;
+    outline: 0
 }
 
 .navbar-default .navbar-brand {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1em;
-    color: #2b2b2b;
+    color: #2b2b2b
 }
 
 @media screen and (max-width: 1200px) {
     .navbar {
-        min-height: 48px !important;
+        min-height: 48px !important
     }
 
-    .navbar-brand,
-    .navbar-nav li a {
+    .navbar-brand, .navbar-nav li a {
         height: inherit;
         line-height: 40px;
         padding-top: 5px;
-        padding-bottom: 5px;
+        padding-bottom: 5px
     }
 
     .navbar-header {
         float: none;
-        min-height: inherit;
+        min-height: inherit
     }
 
-    .navbar-left,
-    .navbar-right {
-        float: none !important;
+    .navbar-left, .navbar-right {
+        float: none !important
     }
 
     .navbar-toggle {
-        display: block;
+        display: block
     }
 
     .navbar-fixed-top {
         top: 0;
-        border-width: 0 0 1px;
+        border-width: 0 0 1px
     }
 
     .navbar-collapse.collapse {
-        display: none !important;
+        display: none !important
     }
 
     .navbar-nav {
         float: none !important;
-        margin-top: 8px;
+        margin-top: 8px
     }
 
     .navbar-nav > li {
-        float: none;
+        float: none
     }
 
     .navbar-nav > li > a {
         padding-top: 10px;
         padding-bottom: 10px;
-        line-height: normal;
+        line-height: normal
     }
 
     .dropdown-menu > li > a {
@@ -1010,7 +975,7 @@ nav#navbar-main li {
         font-weight: 400;
         line-height: 1.42857143;
         color: #34495e;
-        white-space: nowrap;
+        white-space: nowrap
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu {
@@ -1020,30 +985,30 @@ nav#navbar-main li {
         margin-top: 0;
         background-color: transparent;
         border: 0;
-        box-shadow: none;
+        box-shadow: none
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         padding: 5px 15px 5px 25px;
         line-height: 20px;
-        color: #34495e;
+        color: #34495e
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
         color: inherit;
-        background-color: transparent;
+        background-color: transparent
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
         color: #0095eb;
-        background-color: transparent;
+        background-color: transparent
     }
 
     .collapse.in {
-        display: block !important;
+        display: block !important
     }
 }
 
@@ -1055,7 +1020,7 @@ table {
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
-    font-size: 0.93rem;
+    font-size: .93rem
 }
 
 table > thead > tr > th,
@@ -1067,12 +1032,12 @@ table > tfoot > tr > td {
     padding: 8px;
     line-height: 1.43;
     vertical-align: top;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #ddd
 }
 
 table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #ddd
 }
 
 table > caption + thead > tr:first-child > th,
@@ -1081,27 +1046,27 @@ table > thead:first-child > tr:first-child > th,
 table > caption + thead > tr:first-child > td,
 table > colgroup + thead > tr:first-child > td,
 table > thead:first-child > tr:first-child > td {
-    border-top: 0;
+    border-top: 0
 }
 
 table > tbody + tbody {
-    border-top: 2px solid #ddd;
+    border-top: 2px solid #ddd
 }
 
 table table {
-    background-color: #fff;
+    background-color: #fff
 }
 
 /* Table Striped */
 table > tbody > tr:nth-child(odd) > td,
 table > tbody > tr:nth-child(odd) > th {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9
 }
 
 /* Table Hover */
 table > tbody > tr:hover > td,
 table > tbody > tr:hover > th {
-    background-color: #e5e5e5;
+    background-color: #e5e5e5
 }
 
 /*************************************************
@@ -1110,7 +1075,7 @@ table > tbody > tr:hover > th {
 
 div.alert {
     border-radius: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem
 }
 
 div.alert p {
@@ -1119,47 +1084,47 @@ div.alert p {
     font-size: 1rem;
     margin-left: 2rem;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 
-div.alert p:first-child::before {
+div.alert p:first-child:before {
     position: absolute;
-    top: -0.5rem;
+    top: -.5rem;
     left: -2rem;
     font-family: 'FontAwesome', serif;
     font-size: 1.5rem;
     color: #fff;
-    content: '\f05a';
+    content: "\f05a";
     width: 1.5rem;
-    text-align: center;
+    text-align: center
 }
 
-div.alert-warning p:first-child::before {
-    content: '\f071';
+div.alert-warning p:first-child:before {
+    content: "\f071"
 }
 
 div.alert a {
-    color: rgba(255, 255, 255, 0.9);
+    color: hsla(0, 0%, 100%, .9);
     text-decoration: none;
-    border-bottom: solid 1px #e4e4e4;
-    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    border-bottom: 1px solid #e4e4e4;
+    transition: color .2s ease-in-out, border-color .2s ease-in-out
 }
 
 div.alert a:hover {
     border-bottom-color: transparent;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: hsla(0, 0%, 100%, .5) !important
 }
 
 .alert-note {
     color: #fff;
-    background-color: #03A9F4; /* Material LightBlue500 */
-    border-color: #bce8f1;
+    background-color: #03a9f4; /* Material LightBlue500 */
+    border-color: #bce8f1
 }
 
 .alert-warning {
     color: #fff;
     background-color: #f44336; /* Material Red500 */
-    border-color: #ebccd1;
+    border-color: #ebccd1
 }
 
 /*************************************************
@@ -1170,11 +1135,11 @@ div.alert a:hover {
     display: -ms-flexbox;
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    align-items: center
 }
 
 .form-group {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem
 }
 
 @media (min-width: 576px) {
@@ -1183,7 +1148,7 @@ div.alert a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 0;
+        margin-bottom: 0
     }
 
     .sr-only {
@@ -1195,7 +1160,7 @@ div.alert a:hover {
         padding: 0;
         position: absolute;
         width: 1px;
-        white-space: nowrap;
+        white-space: nowrap
     }
 }
 
@@ -1203,11 +1168,11 @@ div.alert a:hover {
     .form-inline .form-control {
         display: inline-block;
         width: auto;
-        vertical-align: middle;
+        vertical-align: middle
     }
 
     .w-100 {
-        width: 100% !important;
+        width: 100% !important
     }
 
     .form-control {
@@ -1223,40 +1188,46 @@ div.alert a:hover {
         border: 1px solid #ced4da;
         border-radius: .25rem;
         transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-        resize: vertical;
+        resize: vertical
     }
 }
 
 .pl-3, .px-3 {
-    padding-left: 1rem !important;
+    padding-left: 1rem !important
 }
 
 .pr-3, .px-3 {
-    padding-right: 1rem !important;
+    padding-right: 1rem !important
 }
 
 .pb-2, .py-2 {
-    padding-bottom: .5rem !important;
+    padding-bottom: .5rem !important
 }
 
 .pt-2, .py-2 {
-    padding-top: .5rem !important;
+    padding-top: .5rem !important
 }
 
 .btn:not(:disabled):not(.disabled) {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .btn-outline-primary {
     color: #0095eb;
     background-color: transparent;
     background-image: none;
-    border-color: #0095eb;
+    border-color: #0095eb
 }
 
-.btn-outline-primary:hover {
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
     color: #fff;
     background-color: #0095eb;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    border-color: #0095eb;
+    border-color: #0095eb
+}
+
+#theme-change {
+    width: 45px;
+    display: inline-block;
 }

@@ -848,6 +848,10 @@ footer p {
     min-height: 48px !important
 }
 
+.navbar .nav-item {
+    text-align: center;
+}
+
 .navbar-default {
     background: #fff;
     box-shadow: 0 .125rem .25rem 0 rgba(0, 0, 0, .11)

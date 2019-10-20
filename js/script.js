@@ -134,25 +134,27 @@
         });
     });
 
-    $('#theme-change').click(function(e) {
+    $('#theme-change').click(function (e) {
         e.preventDefault();
         if ($(this).children(0).hasClass('fa-sun-o')) {
             $(this).children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-moon-o');
             $('#theme').attr('href', "/css/light-theme.min.css");
-            $.cookie('theme', 0, { expires: 60, path: '/' });
+            $('#theme-color').attr('content', "#FFFFFF");
+            $.cookie('theme', 0, {expires: 60, path: '/'});
         } else {
             $(this).children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-sun-o');
             $('#theme').attr('href', "/css/dark-theme.min.css");
-            $.cookie('theme', 1, { expires: 60, path: '/' });
+            $('#theme-color').attr('content', "#000000");
+            $.cookie('theme', 1, {expires: 60, path: '/'});
         }
     });
-    if ($.cookie('theme')==null || $.cookie('theme')==0)
-    {
+    if ($.cookie('theme') == null || $.cookie('theme') == 0) {
         $('#theme').attr('href', "/css/light-theme.min.css");
+        $('#theme-color').attr('content', "#FFFFFF");
         $('#theme-change').children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-moon-o');
-    }
-    else {
+    } else {
         $('#theme').attr('href', "/css/dark-theme.min.css");
+        $('#theme-color').attr('content', "#000000");
         $('#theme-change').children(0).removeClass('fa-moon-o').removeClass('fa-sun-o').addClass('fa-sun-o');
     }
 })(jQuery);

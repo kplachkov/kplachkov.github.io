@@ -1,6 +1,6 @@
 version: '3'
 services:
-  site:
+  server:
     image: nginx
     volumes:
     - .:/usr/share/nginx/html

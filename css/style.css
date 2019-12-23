@@ -255,7 +255,6 @@ blockquote p:last-child {
     margin: 0 auto;
     border-radius: 50%;
     background-size: cover;
-    transform: rotate(-2.5deg); /* TODO: fix the picture and remove */
     -webkit-background-size: cover;
     -moz-background-size: cover;
 }

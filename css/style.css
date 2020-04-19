@@ -209,8 +209,9 @@ blockquote p:last-child {
 }
 
 .home-section:first-of-type {
-    padding-top: 10px;
-    padding-bottom: 35px
+    padding-top: 58px;
+    padding-bottom: 35px;
+    margin-top: -48px;
 }
 
 .home-section:nth-of-type(2n) {
@@ -1009,6 +1010,11 @@ nav#navbar-main li {
 
     .collapse.in {
         display: block !important
+    }
+
+    #theme-change{
+        text-align: center;
+        width: 100%;
     }
 }
 

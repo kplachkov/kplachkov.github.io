@@ -47,7 +47,7 @@
     /**
      * Add smooth scrolling to all links inside the main navbar.
      */
-    $('#navbar-main li.nav-item a').on('click', function (event) {
+    $('#navbar-main li.nav-item:not(:last-child) a').on('click', function (event) {
         // Store requested URL hash.
         var hash = this.hash;
 
@@ -62,6 +62,24 @@
                 scrollTop: $(hash).offset().top - navbar_offset
             }, 800);
         }
+
+        var item = $(this);
+
+        function removeHighlighting(){
+            item.parents('li.nav-item').siblings().removeClass('active');
+            item.parents('li.nav-item').addClass('active');
+        }
+
+        var intervalID = window.setInterval(removeHighlighting, 10);
+
+        // TODO: check if it is possible to be executed once.
+        setTimeout(function () { clearInterval(intervalID); }, 1000);
+        // TODO: remove if possible.
+        setTimeout(removeHighlighting, 1000);
+    });
+
+    $(document).on('resize', function(){
+        var hash = this.hash;
     });
 
     /**

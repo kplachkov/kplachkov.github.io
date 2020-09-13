@@ -1,29 +1,14 @@
 {
-  "name": "kplachkov",
-  "version": "1.0.0",
-  "description": "Portfolio",
-  "keywords": [
-    "portfolio",
-    "kplachkov"
-  ],
   "private": true,
   "devDependencies": {
     "cssnano": "^4.1.10",
+    "http-server": "^0.12.3",
     "postcss-cli": "^6.1.3",
     "uglify-js": "^3.7.2"
   },
   "scripts": {
     "minify": "postcss css/style.css > css/style.min.css && postcss css/dark-theme.css > css/dark-theme.min.css && uglifyjs -c -m -o js/script.min.js js/script.js && uglifyjs -c -m -o js/jquery.cookie.min.js js/jquery.cookie.js",
-    "start": "docker-compose -f workspace.yml up -d",
-    "stop": "docker-compose -f workspace.yml stop"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kplachkov/kplachkov.github.io.git"
-  },
-  "author": "Kostadin Plachkov",
-  "license": "Apache",
-  "bugs": {
-    "url": "https://github.com/kplachkov/kplachkov.github.io/issues"
+    "start": "http-server -o -s &",
+    "stop": "pkill http-server"
   }
 }

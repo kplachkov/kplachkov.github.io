@@ -28,7 +28,7 @@ html {
 
 body {
     font-family: inherit;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     line-height: inherit;
     color: inherit;
     margin-top: 49px; /* Offset body content by navbar height. */
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.25rem
+    font-size: 2.1rem
 }
 
 h2 {
@@ -631,7 +631,7 @@ article {
 }
 
 .project-toolbar {
-    margin-bottom: 1.8rem;
+    margin-bottom: 2.1rem;
     margin-top: 13px
 }
 
@@ -645,7 +645,7 @@ article {
 
 .projects-section {
     background-color: #f7f7f7;
-    padding: 28px 0 85px;
+    padding: 35px 0 80px;
     animation-delay: .15s
 }
 
@@ -712,7 +712,8 @@ article {
  **************************************************/
 
 #contact.home-section .fa-ul {
-    margin-left: 3.14285714rem /* Must be > `fa-2x` icon size. */
+    margin-left: 3.14285714rem; /* Must be > `fa-2x` icon size. */
+    padding: 23px 5px;
 }
 
 #contact.home-section .fa-li {
@@ -724,12 +725,12 @@ article {
 }
 
 #contact.home-section li {
-    padding-top: .8rem; /* Align text with bottom of `fa-2x` icon. */
-    margin-bottom: .3rem
+    /* Align text with bottom of `fa-2x` icon. */
+    padding: .65rem 0 .9rem;
 }
 
 #contact.home-section li:last-of-type {
-    margin-bottom: 0
+    padding-bottom: 2.4rem;
 }
 
 /*************************************************
@@ -1135,11 +1136,11 @@ div.alert a:hover {
     display: -ms-flexbox;
     display: flex;
     flex-flow: row wrap;
-    align-items: center
+    align-items: center;
 }
 
 .form-group {
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -1178,9 +1179,9 @@ div.alert a:hover {
     .form-control {
         display: block;
         width: 100%;
-        height: calc(2.25rem + 2px);
-        padding: .375rem .75rem;
-        font-size: 1rem;
+        height: calc(2.1rem + 2px);
+        padding: .3rem .69rem;
+        font-size: 0.9rem;
         line-height: 1.5;
         color: #495057;
         background-color: #fff;

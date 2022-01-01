@@ -7,7 +7,7 @@
     "uglify-js": "^3.7.2"
   },
   "scripts": {
-    "minify": "postcss css/style.css > css/style.min.css && postcss css/dark-theme.css > css/dark-theme.min.css && uglifyjs -c -m -o js/script.min.js js/script.js && uglifyjs -c -m -o js/jquery.cookie.min.js js/jquery.cookie.js",
+    "minify": "postcss css/style.css > css/style.min.css",
     "start": "http-server -o -s &",
     "stop": "pkill http-server"
   }

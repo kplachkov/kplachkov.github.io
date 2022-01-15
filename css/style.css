@@ -33,7 +33,7 @@
 :root {
     --global-font-size: 16px;
     --global-font-color: #444444;
-    --primary-color: #007ac4;
+    --primary-color: #007AC4;
     --mono-font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --global-line-height: 1.6em;
@@ -66,6 +66,8 @@ body {
     font-size: var(--global-font-size);
     background-color: #FFFFFF;
     margin-bottom: 60px;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
 
 h1,

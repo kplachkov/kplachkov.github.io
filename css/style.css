@@ -1,41 +1,8 @@
-@font-face {
-    font-family: "Roboto Mono";
-    src: url("../fonts/RobotoMono-Regular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: "Roboto Mono";
-    src: url("../fonts/RobotoMono-Italic.ttf") format("truetype");
-    font-style: italic;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: "Roboto Mono";
-    src: url("../fonts/RobotoMono-Bold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 700;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: "Roboto Mono";
-    src: url("../fonts/RobotoMono-BoldItalic.ttf") format("truetype");
-    font-style: italic;
-    font-weight: 700;
-    text-rendering: optimizeLegibility;
-}
-
 :root {
     --global-font-size: 16px;
     --global-font-color: #444444;
     --primary-color: #007AC4;
-    --mono-font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-    --font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    --font-stack: Roboto Mono, monospace;
     --global-line-height: 1.6em;
     --page-width: 70em;
     --display-h1-decoration: 1;
@@ -99,63 +66,17 @@ p, li {
     max-height: 10000em;
 }
 
-.content-column-content p,
-.content-column-content li {
-    color: #666666;
-}
-
-.btn-ghost {
-    color: #666666;
-    background-color: transparent;
-    border-color: #333333;
-    font-weight: 400;
-    font-family: var(--font-stack);
-    padding: 6px 12px;
-    font-size: 18px;
-    line-height: 1.55;
-    border-radius: 0;
-    margin-left: 0;
-    margin-top: 5px;
-}
-
-.content-column-content .command {
-    color: #AAAAAA;
-}
-
-p.social a {
-    margin: 0 0 10px 0;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border: none;
-    line-height: 30px;
-    font-size: 25px;
-    text-align: center;
-    vertical-align: bottom;
-    color: #999999;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-}
-
-.active a {
-    text-decoration: underline;
-}
-
 strong {
     font-weight: bold;
 }
 
 .logo {
-    font-weight: normal;
+    font-weight: 500;
 }
 
 .terminal-menu li {
     margin-right: 30px;
-}
-
-figure {
-    margin: 15px 60px;
+    font-weight: 500;
 }
 
 .footer {
@@ -227,6 +148,7 @@ figure {
     left: 0;
     width: 130px;
     z-index: 400;
+    font-weight: 500;
     padding-top: 0;
 }
 
@@ -276,10 +198,7 @@ figure {
 
     .terminal-menu li {
         margin-right: 20px;
-    }
-
-    figure {
-        margin: 5px 30px;
+        font-weight: 500;
     }
 
     .projects-list {
@@ -304,12 +223,6 @@ figure {
 
     .talks-list .date {
         display: none;
-        position: absolute;
-        left: 0;
-        width: 150px;
-        z-index: 400;
-        font-weight: bold;
-        padding-top: 0;
     }
 
     .footer {

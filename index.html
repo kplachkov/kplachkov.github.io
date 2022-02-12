@@ -77,7 +77,7 @@
                 >github</a
               >
             </li>
-            <li><button>dark-mode</button></li>
+            <li><button id="theme" onclick="themeChange()">dark-mode</button></li>
           </ul>
         </nav>
       </div>
@@ -173,5 +173,26 @@
 
       <div class="footer">© 2022 Kostadin Plachkov</div>
     </div>
+    <script>
+      function themeChange() {
+        const body = document.body;
+        if (localStorage.getItem("darkmode") === "true") {
+          body.classList.remove("darkmode");
+          localStorage.setItem("darkmode", false);
+        } else {
+          body.classList.add("darkmode");
+          localStorage.setItem("darkmode", true);
+        }
+      }
+
+      function onLoad() {
+        const body = document.body;
+        if (localStorage.getItem("darkmode") === "true") {
+          body.classList.add("darkmode");
+        }
+      }
+
+      onLoad();
+    </script>
   </body>
 </html>

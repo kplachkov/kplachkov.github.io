@@ -8,6 +8,17 @@
   --page-width: 70em;
   --display-h1-decoration: 1;
   --code-bg-color: #ffffff;
+  --background: #f9f5d7;
+  --font-color: #151515;
+}
+
+body.darkmode {
+  background-color: var(--background);
+  --global-font-color: #d5c4a1;
+  --background: #1d2021;
+  --font-color: #458588;
+  --primary-color: #fabd2f;
+  --secondary-color: #fabd2f;
 }
 
 .sidebar-heading {
@@ -32,7 +43,7 @@
 body {
   font-family: var(--font-stack);
   font-size: var(--global-font-size);
-  background-color: #f9f5d7;
+  background-color: var(--background);
   margin-bottom: 60px;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
@@ -121,14 +132,14 @@ strong {
   cursor: pointer;
   font-family: var(--font-stack);
   background-color: transparent;
-  color: #b57614;
+  color: var(--primary-color);
   border: none;
   font-weight: 500;
   padding: 0;
 }
 
 .terminal-menu li button:hover {
-  color: #151515;
+  color: var(--font-color);
 }
 
 .terminal-menu li a:hover {

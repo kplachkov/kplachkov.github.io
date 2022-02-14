@@ -20,6 +20,7 @@ function onLoad() {
   if (localStorage.getItem("darkmode") === "true") {
     body.classList.add("darkmode");
     button.innerHTML = "light-mode";
+    document.getElementById("theme-color").content = "#000000";
   }
 }
 

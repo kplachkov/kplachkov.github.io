@@ -4,7 +4,7 @@
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="theme-color" id="theme-color" content="#FFFFFF"/>
+  <meta name="theme-color" id="theme-color" content="#F9F9F9"/>
   <meta name="author" content="Kostadin Plachkov"/>
   <meta name="description"
 		content="Software engineer building high performance and
@@ -35,7 +35,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com"/>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"/>
-  <link rel="stylesheet" href="/css/terminal-0.7.1.min.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css"/>
   <link rel="stylesheet" href="/css/style.min.css"/>
 
   <link rel="icon" type="image/png" href="/img/logo/icon-32.png"/>
@@ -61,6 +61,7 @@
 			   target="_blank" rel="noopener noreferrer">linkedin</a></li>
 		<li><a href="https://github.com/kplachkov"
 			   target="_blank" rel="noopener noreferrer">github</a></li>
+		<li><button id="button-theme-switcher" onclick="switchTheme()">dark-mode</button></li>
 	  </ul>
 	</nav>
   </div>
@@ -138,5 +139,8 @@
 	© 2022 Kostadin Plachkov
   </div>
 </div>
+
+<script src="/js/theme.min.js"></script>
+
 </body>
 </html>

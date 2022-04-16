@@ -180,35 +180,14 @@ strong {
     margin-bottom: calc(var(--global-line-height) * 0.2);
 }
 
-.projects-list {
-    position: relative;
-    top: 0;
-}
-
-.project h2 {
-    padding-top: 0;
-    margin: 0 0 5px;
-}
-
+.projects-list,
 .talks-list {
     position: relative;
-    padding-left: 140px;
-    top: 0;
 }
 
+.project h2,
 .talk h2 {
-    padding-top: 0;
-    margin: 0 0 2px;
-}
-
-.talks-list .date {
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    width: 130px;
-    z-index: 400;
-    font-weight: 500;
-    padding-top: 0;
+    margin: 0 0 3px;
 }
 
 @media only screen and (max-width: 850px) {
@@ -263,30 +242,6 @@ strong {
     .terminal-menu li {
         margin-right: 20px;
         font-weight: 500;
-    }
-
-    .projects-list {
-        position: relative;
-        padding-left: 0;
-        top: 0;
-    }
-
-    .project h2 {
-        padding-top: 0;
-    }
-
-    .talks-list {
-        position: relative;
-        padding-left: 0;
-        top: 0;
-    }
-
-    .talk h2 {
-        padding-top: 0;
-    }
-
-    .talks-list .date {
-        display: none;
     }
 
     .footer {
